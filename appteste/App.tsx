@@ -1,19 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { SinginIn } from "./src/screens";
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>GIDEON FERAAAAAAAAAAAAAAAAA</Text>      <StatusBar style="auto" />
-    </View>
+  return(
+    <SinginIn/>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'purple',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
